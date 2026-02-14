@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Love Forever</title>
+  <title>NoThInG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     /* --- Base page --- */
@@ -14,27 +14,7 @@
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     }
 
-    /* --- Quick links (translated) --- */
-    .quick-link {
-      position: fixed;
-      right: 10px;
-      width: 35px;
-      height: 35px;
-      z-index: 999;
-      background: #696969;
-      border-radius: 50%;
-      padding: 1px;
-      text-align: center;
-      color: #ddd;
-      text-decoration: none;
-      line-height: 35px;
-      font-size: 13px;
-      user-select: none;
-    }
-    .quick-link:nth-of-type(1) { top: 10%; }  /* Create */
-    .quick-link:nth-of-type(2) { top: 4%;  z-index: 998; }  /* More */
-    .quick-link:nth-of-type(3) { top: 16%; z-index: 997; }  /* Source Code */
-    .quick-link:nth-of-type(4) { top: 22%; z-index: 996; }  /* Gift */
+
 
     /* --- Love words --- */
     #ui .love {
@@ -56,7 +36,24 @@
   font-size: 1.4rem;
   text-shadow: 0 0 10px #fff;
 }
-
+    /* --- Quick links (translated) --- */
+    .asdf {
+      position: fixed;
+      
+      width: 35px;
+      height: 35px;
+      z-index: 999;
+      background: #696969;
+      border-radius: 50%;
+      padding: 1px;
+      text-align: center;
+      color: #ddd;
+      text-decoration: none;
+      line-height: 35px;
+      font-size: 13px;
+      user-select: none;
+    }
+    
     #ui .love_word {
       color: #ea80b0;
       font-size: 1.4rem;
@@ -105,12 +102,10 @@
   </style>
 </head>
 <body>
-  <!-- Translated quick links (you can keep or remove the URLs) -->
-  <a href="https://mp.weixin.qq.com/s/oxLqXBcLCT8ij67DjkW2kw" class="quick-link" title="Create">Create</a>
-  <a href="https://shop1619956412.v.weidian.com/?userid=1619956412&spider_token=2720" class="quick-link" title="More">More</a>
-  <a href="https://pan.quark.cn/s/3344d23e48a8" class="quick-link" title="Source Code">Code</a>
-  <a href="https://shop1619956412.v.weidian.com/?userid=1619956412&spider_token=2720" class="quick-link" title="Gift">Gift</a>
 
+  <div class="asdf">
+    <b>Me to my bestie</b>
+  </div>
   <div id="ui"></div>
 
   <script>
@@ -131,7 +126,7 @@
 
       const word = document.createElement('div');
       word.className = 'love_word';
-      word.textContent = 'Rudra Betaa';
+      word.textContent = 'I Love You';
 
       v.appendChild(word);
       h.appendChild(v);
